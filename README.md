@@ -1,4 +1,5 @@
 # Ecomarce
+all info in documentation file
 this web site maked by jsp , servelt , java , javascript , ajax , jquery , mysql 
 lik souq in real world 
 2 user 
