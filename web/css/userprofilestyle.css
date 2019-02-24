@@ -1,0 +1,101 @@
+ body {
+                margin: 0px;
+                padding: 0px;
+                color: #666;
+                line-height: 1.5em; 
+               
+            }
+             .infouser .phoneupdate{
+                display: none;
+            }
+            .infouser  .upaddress{
+                display: none;
+            }
+             .infouser  .countrychoose {
+                display: none;
+            }
+           
+            .tab-content{
+                margin-bottom: 100px;
+            }
+            #country{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+             a{
+                 color: black;
+             }
+             .btn{
+                display: block;
+                border: 0px;
+                border-radius: 0px;
+               }
+            .minue{
+               
+                border-radius: 5%;
+            }
+          .btn-group ul {
+                list-style: none; 
+                padding-top: 20px;
+            }
+            .btn.active, .btn:active{
+                box-shadow: inset 0 0px 0px rgba(0,0,0,.125);
+                color: black;
+            }
+            .btn-group ul li{
+                    background-color: yellowgreen;
+                    border: 1px solid rgba(0, 0, 0, 0.0);
+                    color: black;
+                    border-radius: 30px;
+                  
+                    font-size: 20px;
+                    font-family: " Times";
+                    text-align: center;
+            }
+            .btn-group ul li a:hover{
+                                color: black;
+
+            }
+            .btn-group ul li a{
+                  color: black;
+                font-size: 20px;
+                padding-right: 100px;
+            }
+            
+            .infouser h3{
+                color: black;
+                
+            }
+            .infouser h3  .userinfo{
+                color: yellowgreen;
+            }
+            .infouser  .countrychoose{
+                display: none;
+            }
+          .infouser   .btn-default{
+                    background-color: yellowgreen;
+                    border: 1px solid rgba(0, 0, 0, 0.0);
+                    color: black;
+                    height: 50px;
+                    border-radius: 30px;
+                    font-size: 20px;
+                    margin-left: 5px;
+                    font-family: " Times";
+                    display: inline;
+
+                }
+           .infouser   .btn-default:hover{
+                    background-color: yellowgreen;
+                    border: 1px solid rgba(0, 0, 0, 0.0);
+                    color: black;
+                    height: 50px;
+                    border-radius: 30px;
+                    font-size: 20px;
+                    margin-left: 5px;
+                    font-family: " Times";
+                    display: inline;
+
+                }
+                select{
+                    margin-bottom: 5px;
+                }

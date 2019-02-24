@@ -1,0 +1,67 @@
+CREATE DATABASE ecomerce; 
+CREATE TABLE categ(
+  c1  VARCHAR(255) not null 
+,PRIMARY KEY (c1)
+);
+CREATE TABLE customer (
+username VARCHAR(255) not null,
+pass VARCHAR(255) not null,
+phone VARCHAR(255) not null,
+address VARCHAR(255) not null,
+country VARCHAR(255) not null ,
+email VARCHAR(255) not null,
+stute INT not null,
+regtime date not null ,
+ primary key (username)
+);
+CREATE TABLE product (
+nameo VARCHAR(255) not null ,
+typeo VARCHAR(255) not null ,
+numbero INT not null,
+avsize VARCHAR(255) not null,
+id INT NOT NULL  AUTO_INCREMENT, 
+price REAL not null ,
+discribtion TEXT not null ,
+photo1 VARCHAR(255) not null 
+,photo2 VARCHAR(255),
+ photo3 VARCHAR(255), 
+rate int not null DEFAULT 0 ,
+ nsall int not null DEFAULT 0, 
+addtime date not null ,  
+primary key (id)
+);
+Create TABLE orderone(
+    orderid INT NOT NULL AUTO_INCREMENT,
+    namec VARCHAR(255),
+    priceTotal REAL NOT NULL DEFAULT 0,
+    statueC INT  NOT NULL DEFAULT 0,
+    statueS INT  NOT NULL DEFAULT 0,
+    dateorder date not null ,
+    PRIMARY KEY (orderid),
+    FOREIGN KEY (namec) REFERENCES  customer(username) 
+);
+CREATE TABLE Orders (
+    orderid INT NOt null,
+    pid INT NOT NULL,
+    csize VARCHAR(255) not null,
+    number INT NOT NULL,
+    FOREIGN KEY (orderid) REFERENCES  orderone(orderid) ,
+    FOREIGN KEY (pid) REFERENCES  product(id)
+);
+
+Create table learn(
+ keysar VARCHAR(255) not null , 
+ usern VARCHAR(255) not null, 
+  PRIMARY KEY (keysar),
+  FOREIGN KEY ( usern) REFERENCES  customer(username) 
+);
+Create table comment(
+ comm TEXT not null ,
+ pid int not null,
+ dateorder date not null,
+ username VARCHAR(255) not null,
+ FOREIGN KEY ( username) REFERENCES  customer(username) 
+);
+Create Table adminW(username VARCHAR(255) not null,pass VARCHAR(255) not null ,  PRIMARY KEY (username));
+INSERT INTO adminW ( username, pass ) VALUES ( "kigh", "kik1452" );
+

@@ -1,0 +1,26 @@
+.discption h1{
+    margin-top: 100px;
+    line-height: 2;
+      color: yellowgreen;
+     font-family: " Times";
+      font-size: 50px;
+}
+.discption p{
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+      font-family: "serif";
+       color:black;
+       margin-bottom: 50px;
+
+}
+.discption .btn-default{
+    width: 200px;
+    height: 80px;
+    background-color:yellowgreen ;
+    border: 2px solid black;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}

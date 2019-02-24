@@ -1,0 +1,45 @@
+ .each-blog{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            .thumbnail{
+                border: 3px solid #ddd;
+                border-radius: 20px;
+                
+            }
+                .each-blog img{
+                    border: 5px solid #fff;
+                    border-radius: 30px;
+                }
+                .each-blog h3{
+                     text-align: left;
+                }
+                .each-blog p{
+                    text-align: left;
+                    
+                }
+               
+.each-blog .end{
+    border-top: 1px solid #a3a3a3;
+}
+.each-blog .end span{
+    padding-top: 10px;
+    color: #a3a3a3;
+    font-style: italic;
+}
+
+.to-view .btn-default{
+    background-color: deepskyblue;
+}
+.iminmo{
+     border: 5px solid yellowgreen;
+                    border-radius: 50px;
+                    margin-left:  50px;
+}
+.iminmo img{
+    height: 200px;;
+}
+
+.vieww{
+    margin-bottom: 20px;
+}

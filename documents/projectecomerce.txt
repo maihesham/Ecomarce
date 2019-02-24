@@ -1,0 +1,31 @@
+custmer 
+=>registeration(name,passowed,phone,address,country)
+=>login(name,pass)
+=>update phone
+=>update address
+=>update country
+=>search about product (name,type)
+=>car (every product , custmer choose to buy)
+=> see old pruct has bought
+=> see current order 
+=>rate product
+/////////////////////////////////
+product 
+(name,type,number,price, discribtion,photos)
+/////////////////////////
+admin
+need permation from system 
+=>registeration(name,passowed,phone,address,country)
+=>login(name,pass)
+=>add product 
+=>search user=>remove
+=>search product remove product/update product 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class diagram / erd/use case/use case diagram
+//////////////////////////////////////////////////
+frist page has discription / login / registeration
+
+
+///////////////////////////////////////
+ecomerce db name
+ 

@@ -1,0 +1,48 @@
+.clearfix{
+    clear: both;
+}
+.header .navbar{
+    margin-bottom: 0px;
+    border : 1px solid white;
+}
+.header .navbar-default{
+   background-color: white;
+    height: 100px;
+}
+.header .navbar-default .navbar-brand{
+    color: yellowgreen;
+    font-size: 100px;
+    margin-top: 50px;
+       font-family: " Times"
+    
+    
+}
+.navbar-default .navbar-nav > li > a{
+    padding-top: 75px;
+    font-size: 20px;
+}
+.navbar-left {
+    margin-left: 200px;
+}
+.header .btn-default{
+    background-color: yellowgreen;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    color: black;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 60px;
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: " Times"
+
+    
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: rgba(0, 0, 0, 0.0) ;
+}
+.navbar-default .navbar-toggle{
+    border-color: white;
+}
+.navbar-toggle{
+    background-color:rgba(0, 0, 0, 0.0);
+}
